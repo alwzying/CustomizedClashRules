@@ -1,6 +1,7 @@
 [custom]
 
 ruleset=🛑 广告拦截,https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt
+ruleset=📺 Youtube,https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/YouTube/YouTube.yaml
 ruleset=🎯 DIRECT,https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.txt
 ruleset=🎯 DIRECT,https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/cncidr.txt
 ruleset=🎯 DIRECT,https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt

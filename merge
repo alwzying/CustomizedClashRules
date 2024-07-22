@@ -8,6 +8,10 @@ ruleset=🎯 DIRECT,https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release
 ruleset=🎯 DIRECT,https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt
 ruleset=🐟 漏网之鱼,[]FINAL
 
+custom_proxy_group=🇭🇰 香港节点`url-test`(港|HK|Hong Kong)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇯🇵 日本节点`url-test`(日|东京|大阪|埼玉|JP|Japan)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇺🇲 美国节点`url-test`(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)`http://www.gstatic.com/generate_204`300,,50
+
 enable_rule_generator=true
 overwrite_original_rules=true
 skip_failed_links=true

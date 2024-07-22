@@ -3,3 +3,6 @@
 ruleset=🎯 直连流量,https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.txt
 ruleset=🎯 中国IP,https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/cncidr.txt
 ruleset=🎯 局域IP,https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt
+
+enable_rule_generator=true
+overwrite_original_rules=true

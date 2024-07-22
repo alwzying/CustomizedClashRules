@@ -1,5 +1,6 @@
 [custom]
 
+ruleset=🛑 广告拦截,https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt
 ruleset=🎯 DIRECT,https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.txt
 ruleset=🎯 DIRECT,https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/cncidr.txt
 ruleset=🎯 DIRECT,https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt
@@ -7,3 +8,4 @@ ruleset=🐟 漏网之鱼,[]FINAL
 
 enable_rule_generator=true
 overwrite_original_rules=true
+skip_failed_links=true

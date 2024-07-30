@@ -10,6 +10,8 @@ dns:
   default-nameserver:
     - 223.5.5.5
   enhanced-mode: normal
+  nameserver-policy:
+    'geosite:geolocation-!cn': [tls://8.8.4.4, https://1.0.0.1/dns-query]
   nameserver:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
@@ -21,7 +23,5 @@ dns:
   fallback-filter:
     geoip: true
     geoip-code: CN
-    geosite:
-      - gfw
     ipcidr:
       - 240.0.0.0/4

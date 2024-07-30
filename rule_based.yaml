@@ -5,23 +5,24 @@ dns:
   use-hosts: true
   use-system-hosts: true
   respect-rules: true
-  listen: 0.0.0.0:1053
+  listen: 0.0.0.0:53
   ipv6: false
   default-nameserver:
     - 223.5.5.5
+    - 119.29.29.29
   enhanced-mode: normal
   nameserver-policy:
-    'geosite:gfw':
-      - tls://8.8.4.4
-      - tls://1.1.1.1
+    'geosite:geolocation-!cn':
+      - https://dns.google/dns-query
+      - https://cloudflare-dns.com/dns-query
   nameserver:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
   proxy-server-nameserver:
     - https://doh.pub/dns-query
   fallback:
-    - tls://8.8.4.4
-    - tls://1.1.1.1
+    - https://dns.google/dns-query
+    - https://cloudflare-dns.com/dns-query
   fallback-filter:
     geoip: true
     geoip-code: CN

@@ -2,9 +2,11 @@ mode: rule
 dns:
   enable: true
   default-nameserver:
-    - 223.5.5.5
+    - tls://223.5.5.5
   nameserver-policy:
-    'geosite:cn': https://doh.pub/dns-query
+    'geosite:cn':
+      - https://doh.pub/dns-query
+      - https://dns.alidns.com/dns-query
     'geosite:geolocation-!cn':
       - tls://8.8.8.8
       - tls://1.1.1.1
@@ -16,6 +18,7 @@ dns:
     - tls://1.1.1.1
   proxy-server-nameserver:
     - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
   fallback-filter:
     geoip: true
     geoip-code: CN

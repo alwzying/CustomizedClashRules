@@ -4,5 +4,6 @@ payload:
   - DOMAIN-SUFFIX,raigotsui.com
   - DOMAIN-SUFFIX,splashtop.com
   - DOMAIN-SUFFIX,xiaomazhixing.com
+  - DOMAIN-SUFFIX,kaspersky.com
 
   - IP-CIDR,125.215.147.40/32,no-resolve

@@ -1,6 +1,7 @@
 payload:
   - '+.kaspersky-labs.com'
   - '+.kaspersky.com'
+  - '+.wps.cn'
   - '+.cubox.pro'
   - '+.qqmail.com'
   - '+.docs.qq.com'

@@ -1,4 +1,5 @@
 mode: rule
+
 dns:
   enable: true
   default-nameserver:
@@ -20,6 +21,168 @@ dns:
     geoip-code: CN
     ipcidr:
       - 240.0.0.0/4
+
+# 节点分组设置
+proxy-groups:
+  - name: "🇭🇰 香港节点"
+    type: url-test
+    proxies:
+      - REGEX: ^(港|HK|Hong Kong)
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+
+  - name: "🇯🇵 日本节点"
+    type: url-test
+    proxies:
+      - REGEX: ^(日|JP|Japan)
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+
+  - name: "🇺🇲 美国节点"
+    type: url-test
+    proxies:
+      - REGEX: ^(美|US|United States)
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+
+  - name: "📹 YouTube"
+    type: select
+    proxies:
+      - 🇺🇲 美国节点
+      - 🇯🇵 日本节点
+      - 🇭🇰 香港节点
+
+  - name: "🔍 Google"
+    type: select
+    proxies:
+      - 🇭🇰 香港节点
+      - 🇺🇲 美国节点
+      - 🇯🇵 日本节点
+
+  - name: "📹 HBO"
+    type: select
+    proxies:
+      - 🇺🇲 美国节点
+      - 🇭🇰 香港节点
+
+  - name: "🎥 Netflix"
+    type: select
+    proxies:
+      - 🇭🇰 香港节点
+      - 🇺🇲 美国节点
+      - 🇯🇵 日本节点
+
+  - name: "🎥 DisneyPlus"
+    type: select
+    proxies:
+      - 🇭🇰 香港节点
+      - 🇺🇲 美国节点
+      - 🇯🇵 日本节点
+
+  - name: "🍎 AppleTV"
+    type: select
+    proxies:
+      - 🇭🇰 香港节点
+      - 🇺🇲 美国节点
+      - 🇯🇵 日本节点
+      - DIRECT
+
+  - name: "🤖 OpenAI"
+    type: select
+    proxies:
+      - 🇺🇲 美国节点
+      - 🇯🇵 日本节点
+
+  - name: "🤖 Claude"
+    type: select
+    proxies:
+      - 🇺🇲 美国节点
+
+  - name: "🎵 Spotify"
+    type: select
+    proxies:
+      - 🇭🇰 香港节点
+      - 🇺🇲 美国节点
+      - 🇯🇵 日本节点
+
+  - name: "🎵 TikTok"
+    type: select
+    proxies:
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+
+  - name: "📲 Telegram"
+    type: select
+    proxies:
+      - 🇭🇰 香港节点
+      - 🇺🇲 美国节点
+      - 🇯🇵 日本节点
+
+  - name: "🍎 苹果服务"
+    type: select
+    proxies:
+      - DIRECT
+      - 🇯🇵 日本节点
+      - 🇭🇰 香港节点
+      - 🇺🇲 美国节点
+
+  - name: "Ⓜ️ GitHub"
+    type: select
+    proxies:
+      - 🇯🇵 日本节点
+      - 🇭🇰 香港节点
+      - 🇺🇲 美国节点
+      - DIRECT
+
+  - name: "Ⓜ️ OneDrive"
+    type: select
+    proxies:
+      - 🇯🇵 日本节点
+      - 🇭🇰 香港节点
+      - 🇺🇲 美国节点
+      - DIRECT
+
+  - name: "Ⓜ️ 微软服务"
+    type: select
+    proxies:
+      - DIRECT
+      - 🇭🇰 香港节点
+      - 🇺🇲 美国节点
+      - 🇯🇵 日本节点
+
+  - name: "🎮 游戏平台"
+    type: select
+    proxies:
+      - 🇭🇰 香港节点
+      - 🇺🇲 美国节点
+      - 🇯🇵 日本节点
+      - DIRECT
+
+  - name: "🔞 Custom"
+    type: select
+    proxies:
+      - 🇺🇲 美国节点
+      - 🇭🇰 香港节点
+      - 🇯🇵 日本节点
+
+  - name: "🌍 国外网站"
+    type: select
+    proxies:
+      - 🇭🇰 香港节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+
+  - name: "🐟 漏网之鱼"
+    type: select
+    proxies:
+      - 🇭🇰 香港节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - DIRECT
+
 rule-providers:
   Custom_CN:
     type: http

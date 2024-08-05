@@ -1,5 +1,6 @@
-DOMAIN-SUFFIX,668800.xyz
-DOMAIN-SUFFIX,bt4gprx.com
-DOMAIN-SUFFIX,downloadtorrentfile.com
-DOMAIN-SUFFIX,airav.io
-DOMAIN-SUFFIX,mdbt9.com
+payload:
+  - '+.668800.xyz'
+  - '+.bt4gprx.com'
+  - '+.downloadtorrentfile.com'
+  - '+.airav.io'
+  - '+.mdbt9.com'

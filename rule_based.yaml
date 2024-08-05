@@ -107,13 +107,13 @@ dns:
     - tls://223.5.5.5
   nameserver-policy:
     geosite:cn: https://doh.pub/dns-query
-    geosite:geolocation-!cn: tls://8.8.8.8
+    geosite:geolocation-!cn: https://dns.google/dns-query
   nameserver:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
   fallback:
-    - tls://8.8.8.8
-    - tls://1.1.1.1
+    - https://dns.google/dns-query
+    - https://1.1.1.1/dns-query
   proxy-server-nameserver:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query

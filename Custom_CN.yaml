@@ -1,0 +1,10 @@
+payload:
+  - DOMAIN-SUFFIX,raigotsui.xyz
+  - DOMAIN-SUFFIX,ray-chan.com
+  - DOMAIN-SUFFIX,raigotsui.com
+  - DOMAIN-SUFFIX,splashtop.com
+  - DOMAIN-SUFFIX,xiaomazhixing.com
+  - DOMAIN-SUFFIX,kaspersky.com
+  - DOMAIN-SUFFIX,raigo.top
+
+  - IP-CIDR,125.215.147.40/32,no-resolve

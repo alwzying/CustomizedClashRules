@@ -6,5 +6,6 @@ payload:
   - DOMAIN-SUFFIX,xiaomazhixing.com
   - DOMAIN-SUFFIX,kaspersky.com
   - DOMAIN-SUFFIX,raigo.top
+  - DOMAIN-SUFFIX,ckjr001.com
 
   - IP-CIDR,125.215.147.40/32,no-resolve

@@ -8,4 +8,4 @@ payload:
   - DOMAIN-SUFFIX,raigo.top
   - DOMAIN-SUFFIX,ckjr001.com
   - DOMAIN-SUFFIX,ckjrio.com
-  - IP-CIDR,125.215.147.40/32
+  - IP-CIDR,125.215.147.40/32,no-resolve

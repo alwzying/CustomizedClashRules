@@ -6,6 +6,9 @@ dns:
   nameserver:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
+  nameserver-policy:
+    'geosite:cn': https://doh.pub/dns-query
+    'geosite:geolocation-!cn': tls://8.8.8.8
   fallback:
     - tls://8.8.8.8
     - tls://1.1.1.1

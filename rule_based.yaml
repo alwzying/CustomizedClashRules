@@ -4,17 +4,17 @@ dns:
   default-nameserver:
     - tls://223.5.5.5
   nameserver:
-    - https://doh.pub/dns-query
-    - https://dns.alidns.com/dns-query
+    - tls://223.5.5.5
+    - tls://120.53.53.53
   nameserver-policy:
-    'geosite:cn': https://doh.pub/dns-query
+    'geosite:cn': tls://223.5.5.5
     'geosite:geolocation-!cn': tls://8.8.8.8
   fallback:
     - tls://8.8.8.8
     - tls://1.1.1.1
   proxy-server-nameserver:
-    - https://doh.pub/dns-query
-    - https://dns.alidns.com/dns-query
+    - tls://223.5.5.5
+    - tls://120.53.53.53
   fallback-filter:
     geoip: true
     geoip-code: CN

@@ -7,7 +7,7 @@ dns:
     - tls://223.5.5.5
     - tls://120.53.53.53
   nameserver-policy:
-    'geosite:cn': tls://223.5.5.5
+    'geosite:cn,private': tls://223.5.5.5
     'geosite:geolocation-!cn': tls://8.8.8.8
   fallback:
     - tls://8.8.8.8

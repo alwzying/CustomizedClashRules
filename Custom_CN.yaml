@@ -8,4 +8,4 @@ payload:
   - DOMAIN-SUFFIX,rumt-zh.com
   - DOMAIN-SUFFIX,shczyy.com
   - DOMAIN-SUFFIX,pandayoufu.com
-  - IP-CIDR,125.215.147.40/32,no-resolve
+  - IP-CIDR,125.215.147.40/32

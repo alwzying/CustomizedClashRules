@@ -10,7 +10,7 @@ payload:
   - DOMAIN-SUFFIX,pandayoufu.com
   - DOMAIN-SUFFIX,fengkongcloud.com
   - DOMAIN-SUFFIX,crossoverchina.com
-  - raigotsui.com
-  - raigotsui.xyz
-  - ray-chan.com
+  - DOMAIN-SUFFIX,raigotsui.com
+  - DOMAIN-SUFFIX,raigotsui.xyz
+  - DOMAIN-SUFFIX,ray-chan.com
   - IP-CIDR,125.215.147.40/32,no-resolve

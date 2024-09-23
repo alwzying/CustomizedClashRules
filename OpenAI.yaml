@@ -131,7 +131,6 @@ payload:
 - IP-CIDR,45.76.0.0/15,no-resolve
 - IP-CIDR,45.80.194.0/23,no-resolve
 - IP-CIDR,45.83.28.0/24,no-resolve
-- IP-CIDR,45.86.12.0/24,no-resolve
 - IP-CIDR,45.86.158.0/24,no-resolve
 - IP-CIDR,45.87.101.0/24,no-resolve
 - IP-CIDR,45.91.139.0/24,no-resolve
@@ -481,7 +480,6 @@ payload:
 - IP-CIDR,209.250.65.0/24,no-resolve
 - IP-CIDR,209.250.224.0/19,no-resolve
 - IP-CIDR,212.69.1.0/24,no-resolve
-- IP-CIDR,212.187.208.0/24,no-resolve
 - IP-CIDR,212.187.208.0/23,no-resolve
 - IP-CIDR,212.187.246.0/23,no-resolve
 - IP-CIDR,213.159.8.0/22,no-resolve
@@ -539,6 +537,7 @@ payload:
 - IP-CIDR,2a03:4a81::/32,no-resolve
 - IP-CIDR,2a03:60c0::/32,no-resolve
 - IP-CIDR,2a04:30c0::/32,no-resolve
+- IP-CIDR,2a04:5b81:2010::/48,no-resolve
 - IP-CIDR,2a04:5b81:2010::/44,no-resolve
 - IP-CIDR,2a04:5b81:2060::/48,no-resolve
 - IP-CIDR,2a04:5b81:2060::/44,no-resolve
@@ -560,6 +559,7 @@ payload:
 - IP-CIDR,2a0a:6044:ac62::/48,no-resolve
 - IP-CIDR,2a0a:7180:80::/48,no-resolve
 - IP-CIDR,2a0b:500::/29,no-resolve
+- IP-CIDR,2a0b:64c4::/33,no-resolve
 - IP-CIDR,2a0b:64c4::/31,no-resolve
 - IP-CIDR,2a0b:64c7::/32,no-resolve
 - IP-CIDR,2a0d:2680:900::/40,no-resolve
@@ -598,7 +598,10 @@ payload:
 - IP-CIDR,2a10:ccc7:9350::/46,no-resolve
 - IP-CIDR,2a10:ccc7:9354::/46,no-resolve
 - IP-CIDR,2a10:ccc7:9358::/46,no-resolve
-- IP-CIDR,2a10:ccc7:9360::/45,no-resolve
+- IP-CIDR,2a10:ccc7:935c::/46,no-resolve
+- IP-CIDR,2a10:ccc7:9362::/47,no-resolve
+- IP-CIDR,2a10:ccc7:9365::/48,no-resolve
+- IP-CIDR,2a10:ccc7:9367::/48,no-resolve
 - IP-CIDR,2a10:ccc7:9368::/47,no-resolve
 - IP-CIDR,2a10:ccc7:936c::/47,no-resolve
 - IP-CIDR,2a10:ccc7:9360::/43,no-resolve
@@ -617,14 +620,10 @@ payload:
 - IP-CIDR,2a10:ccc7:93a0::/43,no-resolve
 - IP-CIDR,2a10:ccc7:93c0::/46,no-resolve
 - IP-CIDR,2a10:ccc7:93c7::/48,no-resolve
-- IP-CIDR,2a10:ccc7:93c8::/47,no-resolve
+- IP-CIDR,2a10:ccc7:93ca::/47,no-resolve
 - IP-CIDR,2a10:ccc7:93cc::/47,no-resolve
-- IP-CIDR,2a10:ccc7:93d0::/47,no-resolve
 - IP-CIDR,2a10:ccc7:93c0::/43,no-resolve
-- IP-CIDR,2a10:ccc7:93e0::/46,no-resolve
-- IP-CIDR,2a10:ccc7:93e6::/47,no-resolve
-- IP-CIDR,2a10:ccc7:93e8::/46,no-resolve
-- IP-CIDR,2a10:ccc7:93ec::/46,no-resolve
+- IP-CIDR,2a10:ccc7:93e0::/44,no-resolve
 - IP-CIDR,2a10:ccc7:93f0::/46,no-resolve
 - IP-CIDR,2a10:ccc7:93f4::/46,no-resolve
 - IP-CIDR,2a10:ccc7:93fa::/47,no-resolve
@@ -632,7 +631,9 @@ payload:
 - IP-CIDR,2a10:ccc7:93ff::/48,no-resolve
 - IP-CIDR,2a11:29c0:3dd0::/44,no-resolve
 - IP-CIDR,2a12:fc0:10::/48,no-resolve
-- IP-CIDR,2a12:ecc2::/32,no-resolve
+- IP-CIDR,2a12:ecc2:180::/41,no-resolve
+- IP-CIDR,2a12:ecc2:f00::/40,no-resolve
+- IP-CIDR,2a12:ecc2:1003::/48,no-resolve
 - IP-CIDR,2a13:1000::/29,no-resolve
 - IP-CIDR,2a14:7581:f70::/47,no-resolve
 # # NAME: OpenAI

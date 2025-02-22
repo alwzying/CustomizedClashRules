@@ -1,4 +1,7 @@
 mode: rule
+script:
+  shortcuts:
+    quic: network == 'udp' and dst_port == 443
 dns:
   enable: true
   ipv6: true
